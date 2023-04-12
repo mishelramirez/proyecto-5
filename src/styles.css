@@ -8,17 +8,16 @@ body {
 }
 .maincontainer{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background:rgb(255,121,115);
   display: flex;
  /*background-image: url(./assets/bg-intro-desktop.png) ;*/
 }
 .box1, .box2{
-  width: 50%;
-}
-.box1{
+  width: 50%; 
   display: grid;
 }
+
 @media (max-width: 390px) {
   .maincontainer{
     width: 100%;
