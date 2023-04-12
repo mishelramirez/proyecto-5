@@ -1,0 +1,14 @@
+.homecontainer{
+    
+    align-self: center;
+    justify-self: center;
+}
+.title{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 600;
+}
+.text{
+    font-size: 15px;
+    color: aliceblue;
+}

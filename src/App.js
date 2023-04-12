@@ -1,8 +1,16 @@
-import Form from "./components/Form"
+import Form from "./components/Form/Form";
+import Home from "./components/Home/Home"
+
 
 function App() {
-  return <div>
-    <Form/>
+  return <div className="maincontainer">
+    <div className="box1">
+ <Home/>
+    </div>
+  
+    <div className="box2">
+       <Form/>
+      </div>
   </div>;
 }
 

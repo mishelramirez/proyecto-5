@@ -1,0 +1,27 @@
+.formheader {
+    border: 1px solid rgb(93, 84, 163);
+    border-radius: 10px;
+    background: rgb(93, 84, 163);
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.formcontainer {
+    border: 1px solid;
+    border-radius: 10px;
+    background: aliceblue;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 20 px 1px rgba(0,0,0,0.3);
+}
+.messegetext{
+    height: 45px;
+    line-height: 45px;
+    background: rgb(231, 141, 141);
+    padding: 0 15px;
+    border-radius: 5px;
+    display: none;
+}
